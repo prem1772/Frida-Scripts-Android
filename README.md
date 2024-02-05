@@ -8,9 +8,9 @@ In the Frida script Webview-LoadUrl-JSBridge.js the below methods are hooked in 
 Frida -U -f package_name -l BB-Observe-parameters.js
 
 WebView loadUrl() : android.webkit.WebView calls to WebView URL parameters and other WebView attributes to enumerate the WebView.
-setJavaScriptEnabled() : To enumerate if JavaScript Enable. getAllowFileAccess() : To enumarate if JavaScript Enable. 
-getAllowUniversalAccessFromFileURLs() : To enumarate if JavaScript Enable. 
-getAllowFileAccessFromFileURLs() : To enumarate if JavaScript Enable. 
+setJavaScriptEnabled() : To enumerate if JavaScript Enable. getAllowFileAccess() : To enumerate if JavaScript Enable. 
+getAllowUniversalAccessFromFileURLs() : To enumerate if JavaScript Enable. 
+getAllowFileAccessFromFileURLs() : To enumerate if JavaScript Enable. 
 addJavascriptInterfac() : To enumerate the WebView JavaScript bridge name and Class.
 
 In the Frida script WebView-shouldOverrideUrlLoading.js the below methods are hooked from dynamically enumerated class names in the android to view the return value:
