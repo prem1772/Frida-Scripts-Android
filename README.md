@@ -5,7 +5,7 @@ The Frida script hooks one of the LoadURL Method Calls in Android.
 
 In the Frida script Webview-LoadUrl-JSBridge.js the below methods are hooked in the android WebView class :
 
-Frida -U -f package_name -l BB-Observe-parameters.js.js
+Frida -U -f package_name -l BB-Observe-parameters.js
 
 WebView loadUrl() : android.webkit.WebView calls to WebView URL parameters and other WebView attributes to enumerate the WebView.
 setJavaScriptEnabled() : To enumerate if JavaScript Enable. getAllowFileAccess() : To enumarate if JavaScript Enable. 
